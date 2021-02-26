@@ -11,7 +11,13 @@
 }
 
 body{
-  font-family: 'Montserrat', sans-serif
+  font-family: 'Montserrat', sans-serif;
+}
+
+.img-logo{
+  width: 150px;
+  border-right: solid 1px gray;
+  padding-right: 30px;
 }
 
 nav{
@@ -40,28 +46,21 @@ nav li a:hover{
   margin: auto;
 }
 
-.img-logo{
-  width: 80px;
-  margin-bottom: 20px;
-  
-}
-
-div.banner{
-  
+.banner{
   background-size:cover;
   background-position: center;
   background-image: url(img/banner.jpg);
   margin-bottom: 20px;
+  border-radius: 15px;
 }
 
 .banner-text{
-  height: 100px;
-  width: 65%;
-  padding-top: 30%;
-  padding-left: 5%;
-  padding-bottom: 25%;
+  padding-top: 350px;
+  padding-left: 40px;
+  padding-bottom: 60px;
+  padding-right: 400px;
+
   color: white;
-  margin: 0px;
 }
 
 h1{
@@ -79,33 +78,44 @@ main .menu-sx{
   margin-bottom: 20px;
 }
 
-main{
-  background-color: crimson;
-}
-
 .titolo-articolo{
-  background-color:blue;
-  height: 70px;
   margin-bottom: 20px;
 }
 
 .menu-sx{
-  width: 23%;
-  height: 300px;
-  background-color: blue;
+  width: 20%;
+}
+
+.img-sx{
+  background-image: url(img/img-1.jpg);
+  height: 180px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .articolo{
-  width: 50%;
-  height: 300px;
-  background-color: blue;
+  width: 56%;
   margin: 0 2%;
 }
 
+.img-articolo{
+  background-image: url(img/banner-2.jpg);
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+}
+
 .menu-dx{
-  width: 23%;
-  height: 300px;
-  background-color: blue;
+  width: 20%;
+}
+
+.img-dx{
+  background-image: url(img/img-3.jpg);
+  height: 180px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .end-banner{
