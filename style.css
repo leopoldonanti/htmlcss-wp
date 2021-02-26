@@ -1,0 +1,117 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif
+}
+
+nav{
+  height: 25px;
+}
+
+nav li{
+  list-style: none;
+  display: inline;
+  padding-right: 10px;
+}
+
+nav li a{
+  color: gray;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+nav li a:hover{
+  color: coral;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.img-logo{
+  width: 80px;
+  margin-bottom: 20px;
+  
+}
+
+div.banner{
+  
+  background-size:cover;
+  background-position: center;
+  background-image: url(img/banner.jpg);
+  margin-bottom: 20px;
+}
+
+.banner-text{
+  height: 100px;
+  width: 65%;
+  padding-top: 30%;
+  padding-left: 5%;
+  padding-bottom: 25%;
+  color: white;
+  margin: 0px;
+}
+
+h1{
+  font-size: 15px;
+}
+
+p{
+  font-size: 10px;
+}
+
+main .menu-dx,
+main .articolo,
+main .menu-sx{
+  float:left;
+  margin-bottom: 20px;
+}
+
+main{
+  background-color: crimson;
+}
+
+.titolo-articolo{
+  background-color:blue;
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+.menu-sx{
+  width: 23%;
+  height: 300px;
+  background-color: blue;
+}
+
+.articolo{
+  width: 50%;
+  height: 300px;
+  background-color: blue;
+  margin: 0 2%;
+}
+
+.menu-dx{
+  width: 23%;
+  height: 300px;
+  background-color: blue;
+}
+
+.end-banner{
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  background-color: blueviolet;
+}
+
